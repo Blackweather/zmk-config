@@ -17,7 +17,7 @@
 / { 
 
     macros {
-        macro_chrome : macro_chrome {
+        macro_chrome: macro_chrome {
             label = "macro_chrome";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -30,7 +30,7 @@
                 <&kp ENTER>;
         };
 
-        macro_calc : macro_calc {
+        macro_calc: macro_calc {
             label = "macro_calc";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -43,7 +43,7 @@
                 <&kp ENTER>;
         };
 
-        macro_slack : macro_slack {
+        macro_slack: macro_slack {
             label = "macro_slack";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -56,7 +56,7 @@
                 <&kp ENTER>;
         };
 
-        macro_gmail : macro_gmail {
+        macro_gmail: macro_gmail {
             label = "macro_gmail";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -69,7 +69,7 @@
                 <&macro_tap &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M &kp ENTER>;
         };
 
-        macro_messenger : macro_messenger {
+        macro_messenger: macro_messenger {
             label = "macro_messenger";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
