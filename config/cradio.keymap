@@ -201,7 +201,7 @@
                     &kp Q      &kp W      &kp F       &kp P        &kp B 			&kp J         &kp L        &kp U       &kp Y        &kp QUOT 
                     &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G            &kp M         &hm LSHIFT N &hm LCTRL E &hm LALT I   &hm LGUI O
                     &kp Z      &hm RALT X &kp C       &kp D        &kp V			&kp K         &kp H        &kp COMMA   &hm RALT DOT &kp SLASH
-                                                      &lt NAV SPC  &lt MEDIA TAB  	&lt SYM ENTER &lt NUM BSPC 
+                                                      &lt LAYER_NAV SPC  &lt LAYER_MEDIA TAB  	&lt LAYER_SYM ENTER &lt LAYER_NUM BSPC 
                 >;
 		    };
             
