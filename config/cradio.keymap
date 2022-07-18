@@ -8,6 +8,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define LAYER_COLEMAK 0
+#define LAYER_NAV 1
+#define LAYER_MEDIA 2
+#define LAYER_SYM 3
+#define LAYER_NUM 4
+#define LAYER_FN 5
+
 
 &mt {
   //  flavor = "tap-preferred";
@@ -115,7 +122,7 @@
             timeout-ms = <50>;
             key-positions = <30 31>;
             bindings = <&kp COMMA>;
-            layers = <NUM>;
+            layers = <LAYER_NUM>;
         };
         
         // keys to layer combos
