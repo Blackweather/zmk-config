@@ -29,7 +29,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <700>;
-            tap-ms = <10>;
+            tap-ms = <1>;
             bindings =
                 <&macro_tap &kp LGUI>,
                 <&kp C &kp H &kp R &kp O &kp M &kp E>,
@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <700>;
-            tap-ms = <10>;
+            tap-ms = <1>;
             bindings =
                 <&macro_tap &kp LGUI>,
                 <&kp C &kp A &kp L &kp C &kp U &kp L &kp A &kp T &kp O &kp R>,
@@ -55,7 +55,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <700>;
-            tap-ms = <10>;
+            tap-ms = <1>;
             bindings =
                 <&macro_tap &kp LGUI>,
                 <&kp S &kp L &kp A &kp C &kp K>,
@@ -68,7 +68,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
-            tap-ms = <10>;
+            tap-ms = <1>;
             bindings =
                 <&macro_press &kp LCTRL>,
                 <&macro_tap &kp T>,
@@ -81,7 +81,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <30>;
-            tap-ms = <10>;
+            tap-ms = <1>;
             bindings =
                 <&macro_press &kp LCTRL>,
                 <&macro_tap &kp T>,
